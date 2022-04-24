@@ -28,7 +28,7 @@ creds.js
 *.tsv
 *.tsv.gz
 *.xlsx
-
+*.pem
 
 # Mac/OSX
 .DS_Store
@@ -172,3 +172,6 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# SSL
+https/
