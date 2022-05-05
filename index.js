@@ -29,7 +29,7 @@ httpServer.listen(config.httpPort, function () {
   console.log("server is listening on port " + config.httpPort);
 });
 
-// start the http server
+// start the https server
 httpsServer.listen(config.httpsPort, function () {
   console.log("server is listening on port " + config.httpsPort);
 });
@@ -103,4 +103,5 @@ const unifiedServer = function (req, res) {
 const router = {
   ping: handlers.ping,
   users: handlers.users,
+  tokens: handlers.tokens
 };
